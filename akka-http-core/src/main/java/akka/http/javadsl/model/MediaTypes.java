@@ -7,7 +7,6 @@ package akka.http.javadsl.model;
 import akka.http.impl.util.Util;
 import akka.http.scaladsl.model.MediaTypes$;
 import akka.japi.Option;
-import scala.collection.immutable.List;
 
 /**
  * Contains the set of predefined media-types.

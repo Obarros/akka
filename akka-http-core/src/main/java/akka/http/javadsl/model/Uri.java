@@ -4,15 +4,12 @@
 
 package akka.http.javadsl.model;
 
+import java.nio.charset.Charset;
+
 import akka.http.impl.model.JavaUri;
 import akka.http.scaladsl.model.UriJavaAccessor;
 import akka.japi.Option;
-import akka.japi.Pair;
 import akka.parboiled2.ParserInput$;
-
-import java.nio.charset.Charset;
-import java.util.List;
-import java.util.Map;
 
 /**
  * Represents an Uri. Use the `withX` methods to create modified copies of a given instance.
